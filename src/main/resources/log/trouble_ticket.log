@@ -1,0 +1,205 @@
+<object-stream>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>1</type>
+      <factId>1</factId>
+      <objectToString>[Customer A : Drools : Gold]</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>1</type>
+      <factId>2</factId>
+      <objectToString>[Customer B : Drools : Platinum]</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>1</type>
+      <factId>3</factId>
+      <objectToString>[Customer C : Drools : Silver]</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>1</type>
+      <factId>4</factId>
+      <objectToString>[Customer D : Drools : Silver]</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>1</type>
+      <factId>5</factId>
+      <objectToString>[Ticket [Customer A : Drools : Gold] : New]</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>1</type>
+      <factId>6</factId>
+      <objectToString>[Ticket [Customer B : Drools : Platinum] : New]</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>1</type>
+      <factId>7</factId>
+      <objectToString>[Ticket [Customer C : Drools : Silver] : New]</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>1</type>
+      <factId>8</factId>
+      <objectToString>[Ticket [Customer D : Drools : Silver] : New]</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>New Ticket2 [1, 5]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer A : Drools : Gold]</declarations>
+      <factHandleIds>5,1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>New Ticket2 [2, 6]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer B : Drools : Platinum]</declarations>
+      <factHandleIds>6,2</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>New Ticket2 [3, 7]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer C : Drools : Silver]</declarations>
+      <factHandleIds>7,3</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>New Ticket2 [4, 8]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer D : Drools : Silver]</declarations>
+      <factHandleIds>8,4</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>New Ticket2 [1, 5]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer A : Drools : Gold]</declarations>
+      <factHandleIds>5,1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>New Ticket2 [1, 5]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer A : Drools : Gold]</declarations>
+      <factHandleIds>5,1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>New Ticket2 [2, 6]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer B : Drools : Platinum]</declarations>
+      <factHandleIds>6,2</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>New Ticket2 [2, 6]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer B : Drools : Platinum]</declarations>
+      <factHandleIds>6,2</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>New Ticket2 [3, 7]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer C : Drools : Silver]</declarations>
+      <factHandleIds>7,3</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>New Ticket2 [3, 7]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer C : Drools : Silver]</declarations>
+      <factHandleIds>7,3</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>New Ticket2 [4, 8]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer D : Drools : Silver]</declarations>
+      <factHandleIds>8,4</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>New Ticket2 [4, 8]</activationId>
+      <rule>New Ticket2</rule>
+      <declarations>c=[Customer D : Drools : Silver]</declarations>
+      <factHandleIds>8,4</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Platinum Priority [2, 6]</activationId>
+      <rule>Platinum Priority</rule>
+      <declarations>ticket=[Ticket [Customer B : Drools : Platinum] : New]</declarations>
+      <factHandleIds>6,2</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Platinum Priority [2, 6]</activationId>
+      <rule>Platinum Priority</rule>
+      <declarations>ticket=[Ticket [Customer B : Drools : Platinum] : New]</declarations>
+      <factHandleIds>6,2</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>2</type>
+      <factId>6</factId>
+      <objectToString>[Ticket [Customer B : Drools : Platinum] : Escalate]</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Platinum Priority [2, 6]</activationId>
+      <rule>Platinum Priority</rule>
+      <declarations>ticket=[Ticket [Customer B : Drools : Platinum] : Escalate]</declarations>
+      <factHandleIds>6,2</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Escalate [2, 6]</activationId>
+      <rule>Escalate</rule>
+      <declarations>customer=[Customer B : Drools : Platinum]; ticket=[Ticket [Customer B : Drools : Platinum] : Escalate]</declarations>
+      <factHandleIds>6,2</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Escalate [2, 6]</activationId>
+      <rule>Escalate</rule>
+      <declarations>customer=[Customer B : Drools : Platinum]; ticket=[Ticket [Customer B : Drools : Platinum] : Escalate]</declarations>
+      <factHandleIds>6,2</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Escalate [2, 6]</activationId>
+      <rule>Escalate</rule>
+      <declarations>customer=[Customer B : Drools : Platinum]; ticket=[Ticket [Customer B : Drools : Platinum] : Escalate]</declarations>
+      <factHandleIds>6,2</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>2</type>
+      <factId>7</factId>
+      <objectToString>[Ticket [Customer C : Drools : Silver] : Done]</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Done [3, 7]</activationId>
+      <rule>Done</rule>
+      <declarations>c=[Customer C : Drools : Silver]</declarations>
+      <factHandleIds>7,3</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Done [3, 7]</activationId>
+      <rule>Done</rule>
+      <declarations>c=[Customer C : Drools : Silver]</declarations>
+      <factHandleIds>7,3</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Done [3, 7]</activationId>
+      <rule>Done</rule>
+      <declarations>c=[Customer C : Drools : Silver]</declarations>
+      <factHandleIds>7,3</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+  </events>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+</object-stream>

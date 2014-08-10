@@ -1,0 +1,23 @@
+//created on: Aug 9, 2014
+package org.drools.examples.troubleticket
+
+//list any import classes here.
+//import org.drools.examples.troubleticket.Customer;
+
+//declare any global variables here
+
+rule "My New Ticket1"
+    when
+	    
+    then
+        System.out.println( "Anyone there?");
+end
+
+
+rule "My New Ticket2"
+    when
+        customer : Customer( )
+        ticket : Ticket( customer == customer, status == "New" )
+    then
+        System.out.println( "New : " + ticket );
+end

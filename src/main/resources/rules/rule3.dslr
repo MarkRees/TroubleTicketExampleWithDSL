@@ -1,0 +1,13 @@
+package org.drools.examples.troubleticket
+//expander ticketing.dsl
+
+//import org.drools.examples.troubleticket.Customer;
+//import org.drools.examples.troubleticket.Ticket;
+
+rule "New Ticket"
+    salience 10
+    when
+       There is a customer ticket with status of "New"
+    then
+       Log "New ticket..."
+end
